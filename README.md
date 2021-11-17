@@ -24,3 +24,6 @@ Several presentations and repos that help you get started with eBPF programming
 * eBPF Superpowers presentation at DockerCon 
   * [Slides](https://speakerdeck.com/lizrice/ebpf-superpowers)
   * [YouTube](https://youtu.be/4SiWL5tULnQ) 
+
+* Packet counting example added for [O'Reilly Superstream "What's next for Infrastructure and Operations?"](https://learning.oreilly.com/live-events/infrastructure-ops-superstream-series-whats-next-for-infrastructure-and-operations/0636920054193/0636920054192/)
+  * Examples: ebpf.py & packet.py 
