@@ -1,5 +1,7 @@
 # The Beginner's Guide to eBPF
 
+_New report "What is eBPF?" now available for [download from Isovalent](https://isovalent.com/ebpf/) or with your subscription to [O'Reilly's learning platform](https://www.oreilly.com/library/view/what-is-ebpf/9781492097266/)_
+
 Several presentations and repos that help you get started with eBPF programming
 
 * The Beginners Guide to eBPF Programming as seen at [eBPF Summit 2020](https://ebpf.io/summit-2020/) 
