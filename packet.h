@@ -11,8 +11,13 @@ static __always_inline u64 lookup_protocol(struct xdp_md *ctx)
     if (data + sizeof(struct ethhdr) > data_end)
         return 0;
 
+    // Check that it's an IP packet
     if (bpf_ntohs(eth->h_proto) == ETH_P_IP)
     {
+        // Return the protocol of this packet
+        // 1 = ICMP
+        // 6 = TCP
+        // 17 = UDP        
         struct iphdr *iph = data + sizeof(struct ethhdr);
         if (data + sizeof(struct ethhdr) + sizeof(struct iphdr) <= data_end)
             protocol = iph->protocol;
