@@ -1,8 +1,14 @@
 # The Beginner's Guide to eBPF
 
-_My report "What is eBPF?" and in-depth book "Learning eBPF" are both available for [download from Isovalent](https://isovalent.com/ebpf/) or with your subscription to [O'Reilly's learning platform](https://www.oreilly.com/library/view/what-is-ebpf/9781492097266/). You can buy "Learning eBPF" from any good bookstore (support your local bookshop by ordering it there!)_
+This repo was originally created with the code samples to accompany my talk ["The Beginners Guide to eBPF Programming"](https://youtu.be/lrSExTfS-iQ) given at [eBPF Summit 2020](https://ebpf.io/summit-2020/). Since then I've created several other talks and code samples, and written a book on the topic. If you want to learn about eBPF, I hope you'll find some of these resources useful.
 
-Several presentations and repos that help you get started with eBPF programming
+* This repo lists slides, example code, and recordings of talks that I've given that will help you get started with eBPF.
+* To read a high-level introduction to the topic, check out my report "What is eBPF". 
+* If you want to dive into eBPF programming, "Learning eBPF" might be the book you're looking for. 
+
+"What is eBPF?" and "Learning eBPF" are both available for [download from Isovalent](https://isovalent.com/ebpf/) or with your subscription to [O'Reilly's learning platform](https://www.oreilly.com/library/view/what-is-ebpf/9781492097266/). You can buy "Learning eBPF" from any good bookstore (support your local bookshop by ordering it there!) If you're looking for the example code for "Learning eBPF", you'll find it over in [this repo](https://github.com/lizrice/learning-ebpf).
+
+## Talks, presentations and example code
 
 * The Beginners Guide to eBPF Programming as seen at [eBPF Summit 2020](https://ebpf.io/summit-2020/) 
   * ebpf.py in this repo is the code I write during that talk
